@@ -1,0 +1,9 @@
+.root{
+	-fx-background-image: url('12.png');
+	-fx-background-color: rgba(0,0,0, 0.5);
+	-fx-background-repeat: no-repeat; 
+	-fx-background-size: 400 600; 
+}
+.songProgress{
+	-fx-accent: #1aa824;
+}
