@@ -65,7 +65,7 @@ public class Controller implements Initializable {
 	private String oS;
 	private List<String> preSongs;
 	private List<String> pregSongs;
-	// гпнахрх оепеб╡пйс онбрнпемэ о╡д вюя дндюбюммъ лсгхйх б тюики лсгхйх опх п╡гмху яеюмяюу
+	// ц┤ц░ц▌ц│ц┬ц▓ц┬ ц▐ц┘ц░ц┘ц┌б╡ц░ц┼ц⌠ ц▐ц▌ц┌ц▓ц▌ц░ц┘ц█ц° ц▐б╡ц└ ц≈ц─ц▒ ц└ц▌ц└ц─ц┌ц─ц█ц█ц÷ ц▄ц⌠ц┤ц┬ц┼ц┬ ц┌ ц■ц─ц┴ц▀ц┴ ц▄ц⌠ц┤ц┬ц┼ц┬ ц▐ц░ц┬ ц░б╡ц┤ц█ц┬ц∙ ц▒ц┘ц─ц█ц▒ц─ц∙
 	
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
@@ -122,7 +122,7 @@ public class Controller implements Initializable {
 	}
 	
 	public void repScan() throws FileNotFoundException {
-		Scanner nameScan = new Scanner(new File ("nameSong"));
+		Scanner nameScan = new Scanner(new File ("NameSong"));
 		while(nameScan.hasNextLine()) {
 			pregSongs.add(nameScan.nextLine().toString());
 			System.out.println(pregSongs);
